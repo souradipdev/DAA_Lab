@@ -18,16 +18,16 @@ let num,
 for (let key in counterObj) {
   key = String(key);
   console.log(counterObj[key]);
-  if (counterObj[key] > 1) {
-    if (counterObj[key] > counter) {
-      counter = counterObj[key];
-    }
 
-    if (counterObj[key] === counter) {
-      num = Number(key);
-    }
-    dupElementsArr.push(Number(key));
+  if (counterObj[key] > counter) {
+    counter = counterObj[key];
   }
+
+  if (counterObj[key] === counter) {
+    num = Number(key);
+  }
+  dupElementsArr.push(Number(key));
+
 }
 console.log(counterObj);
 console.log("Duplicate elements array: ", dupElementsArr);
