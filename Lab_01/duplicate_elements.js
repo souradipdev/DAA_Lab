@@ -15,7 +15,9 @@ for (let i = 0; i < arr.length; i++) {
 let num,
   counter = 0;
 
-for (key in counterObj) {
+for (let key in counterObj) {
+  key = String(key);
+  console.log(counterObj[key]);
   if (counterObj[key] > 1) {
     if (counterObj[key] > counter) {
       counter = counterObj[key];
@@ -27,8 +29,8 @@ for (key in counterObj) {
     dupElementsArr.push(Number(key));
   }
 }
-// console.log(counterObj);
+console.log(counterObj);
 console.log("Duplicate elements array: ", dupElementsArr);
 console.log("No of duplicate elements: ", dupElementsArr.length);
 
-console.log("Number with maximum ocurrances: ", num);
+console.log("Number with maximum occurrences: ", num);

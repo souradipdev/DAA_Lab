@@ -1,7 +1,10 @@
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/duplicate_elements.dir
+/home/souradip/DAA/cmake-build-debug/CMakeFiles/hashing_using_array.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/rotate_right.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/second_smallest.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/array_sum.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/3.1.dir
+/home/souradip/DAA/cmake-build-debug/CMakeFiles/4.1.dir
+/home/souradip/DAA/cmake-build-debug/CMakeFiles/name_sorting.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
