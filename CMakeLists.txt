@@ -10,4 +10,6 @@ add_executable(array_sum Lab_01/array_sum.c)
 add_executable(3.1 Lab_03/3.1.c)
 add_executable(4.1 Lab_04/4.1.cpp)
 add_executable(name_sorting Lab_04/name_sorting.c)
+add_executable(quick_sort Lab_04/quick_sort.cpp)
+add_executable(heap_sort Lab_05/heap_sort.cpp)
 
