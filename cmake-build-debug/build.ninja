@@ -288,6 +288,68 @@ build name_sorting: C_EXECUTABLE_LINKER__name_sorting_Debug CMakeFiles/name_sort
   TARGET_FILE = name_sorting
   TARGET_PDB = name_sorting.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target quick_sort
+
+
+#############################################
+# Order-only phony target for quick_sort
+
+build cmake_object_order_depends_target_quick_sort: phony || .
+
+build CMakeFiles/quick_sort.dir/Lab_04/quick_sort.cpp.o: CXX_COMPILER__quick_sort_unscanned_Debug /home/souradip/DAA/Lab_04/quick_sort.cpp || cmake_object_order_depends_target_quick_sort
+  DEP_FILE = CMakeFiles/quick_sort.dir/Lab_04/quick_sort.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/quick_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/quick_sort.dir/Lab_04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick_sort
+
+
+#############################################
+# Link the executable quick_sort
+
+build quick_sort: CXX_EXECUTABLE_LINKER__quick_sort_Debug CMakeFiles/quick_sort.dir/Lab_04/quick_sort.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/quick_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = quick_sort
+  TARGET_PDB = quick_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target heap_sort
+
+
+#############################################
+# Order-only phony target for heap_sort
+
+build cmake_object_order_depends_target_heap_sort: phony || .
+
+build CMakeFiles/heap_sort.dir/Lab_05/heap_sort.cpp.o: CXX_COMPILER__heap_sort_unscanned_Debug /home/souradip/DAA/Lab_05/heap_sort.cpp || cmake_object_order_depends_target_heap_sort
+  DEP_FILE = CMakeFiles/heap_sort.dir/Lab_05/heap_sort.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/heap_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/heap_sort.dir/Lab_05
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target heap_sort
+
+
+#############################################
+# Link the executable heap_sort
+
+build heap_sort: CXX_EXECUTABLE_LINKER__heap_sort_Debug CMakeFiles/heap_sort.dir/Lab_05/heap_sort.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/heap_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = heap_sort
+  TARGET_PDB = heap_sort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -322,7 +384,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/souradip/DAA/cmake-build-debug
 
-build all: phony duplicate_elements hashing_using_array rotate_right second_smallest array_sum 3.1 4.1 name_sorting
+build all: phony duplicate_elements hashing_using_array rotate_right second_smallest array_sum 3.1 4.1 name_sorting quick_sort heap_sort
 
 # =============================================================================
 # Built-in targets

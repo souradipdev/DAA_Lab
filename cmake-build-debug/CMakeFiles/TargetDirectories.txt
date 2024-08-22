@@ -6,5 +6,7 @@
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/3.1.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/4.1.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/name_sorting.dir
+/home/souradip/DAA/cmake-build-debug/CMakeFiles/quick_sort.dir
+/home/souradip/DAA/cmake-build-debug/CMakeFiles/heap_sort.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/souradip/DAA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
